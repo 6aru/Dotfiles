@@ -1,22 +1,76 @@
-## (mac) Install MPD & MPC with Brew
+## 🐧 Install MPD & MPC (Debian)
 
-`brew install mpd mpc`
+Install MPD and MPC using APT:
 
-- Not using homebrew to run, kill and restart mpd
-- as mpd homebrew config path is different from my custom mpd.conf
-    - `/opt/homebrew/etc/mpd.conf`
+```bash
+sudo apt update
+sudo apt install mpd mpc
+```
 
-## Manually run mpd
-- run `mpd ~/path/to/your/mpd.conf`
+---
 
-- Three ways to Check if mpd is running
-    - `mpc status` : an error would log "Connection refused" 
-    - `lsof -i TCP:6600` : where "6600" is the port specified in the mpd config
-    - `pgrep -fl mpd` : where you'll see mpd running pointing to your mpd.conf path
+## ▶️ Run MPD Manually
 
-## Restart mpd with
-- run `pkill mpd` or `killall mpd`
-- run `mpd ~/path/to/your/mpd.conf`
-- or set it to an alias
+If you're using a custom configuration file, start MPD with:
 
+```bash
+mpd ~/.config/mpd/mpd.conf
+```
 
+---
+
+## ✅ Check if MPD is Running
+
+You can verify that MPD is running using any of the following commands:
+
+### Check MPD status
+
+```bash
+mpc status
+```
+
+If MPD is not running, you'll see an error such as:
+
+```text
+MPD error: Connection refused
+```
+
+### Check the listening port
+
+```bash
+lsof -i TCP:6600
+```
+
+> `6600` is the default MPD port. Change it if you've configured a different port.
+
+### Check the running process
+
+```bash
+pgrep -af mpd
+```
+
+This should show the running MPD process along with the path to your `mpd.conf`.
+
+---
+
+## 🔄 Restart MPD
+
+Stop the running instance:
+
+```bash
+pkill mpd
+```
+
+or
+
+```bash
+killall mpd
+```
+
+Then start it again:
+
+```bash
+mpd ~/.config/mpd/mpd.conf
+```
+
+You can also create a shell alias for quicker restarts if desired.
