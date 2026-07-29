@@ -5,8 +5,11 @@
 > Personal Linux configuration files for Debian 13.
 
 ![Debian](https://img.shields.io/badge/Debian-13-A81D33?style=for-the-badge&logo=debian)
-![Shell](https://img.shields.io/badge/Shell-Zsh-181818?style=for-the-badge)
 ![Terminal](https://img.shields.io/badge/Terminal-Kitty-181818?style=for-the-badge)
+![MPD](https://img.shields.io/badge/Music-MPD-181818?style=for-the-badge)
+![rmpc](https://img.shields.io/badge/Client-rmpc-181818?style=for-the-badge)
+![Alacritty](https://img.shields.io/badge/Terminal-Alacritty-181818?style=for-the-badge)
+![Fastfetch](https://img.shields.io/badge/System-Fastfetch-181818?style=for-the-badge)
 
 </div>
 
@@ -26,6 +29,7 @@ Everything is designed for a clean, minimal, keyboard-driven workflow on **Debia
 .config
 ├── fastfetch
 ├── kitty
+├── alacritty
 ├── mpd
 └── rmpc
 ```
