@@ -36,7 +36,7 @@ Right-click desktop → **Panel → Add New Panel**. Then right-click it → **P
 - Automatically increase the length: ✅ on
 
 ### Appearance tab
-![Appearance settings](screenshots/appearance.png)
+<img width="384" height="626" alt="Image" src="https://github.com/user-attachments/assets/7190fb7f-f44c-4661-a627-3152ee8846dc" />
 
 - Dark mode: ✅ on
 - Background style: `None (use system style)`
