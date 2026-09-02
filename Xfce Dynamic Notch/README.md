@@ -44,7 +44,7 @@ Right-click desktop → **Panel → Add New Panel**. Then right-click it → **P
 - Opacity — Enter: `90`, Leave: `90`
 
 ### Items tab
-![Items settings](screenshots/items.png)
+![Items settings](<img width="384" height="626" alt="Image" src="https://github.com/user-attachments/assets/2921b80a-684e-4053-b860-2fe9ac3cc52d" />)
 
 Add these items in this order (**+ Add** button, bottom left):
 1. Separator
