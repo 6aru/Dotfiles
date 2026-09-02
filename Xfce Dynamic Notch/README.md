@@ -76,8 +76,8 @@ You should now have the same floating pill panel shown in the screenshots.
 
 Edit `~/.config/gtk-3.0/gtk.css`:
 - `border-radius` — corner shape (`0px 0px 20px 20px` = flat top / rounded bottom, notch look)
-- `background-color` — pill color/opacity
 - `box-shadow` — how much it "floats"
+- #XfcePanelWindow.panel-3 - panel-"Your Panel Number ex: panel-2 or panel-4"
 
 Reload after any edit:
 ```bash
