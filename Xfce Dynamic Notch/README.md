@@ -24,7 +24,7 @@ Right-click desktop → **Panel → Add New Panel**. Then right-click it → **P
 > ⚠️ The screenshots below show **Panel 3** in the panel dropdown at the top of the preferences window (mine, since I already have other panels). Yours will likely be a different number (Panel 1, 2, 4, etc. depending on how many panels you already have) — that's fine, the number itself doesn't matter. Just make sure you're editing the *new* panel you just created.
 
 ### Display tab
-![Display settings](screenshots/display.png)
+<img width="384" height="626" alt="Image" src="https://github.com/user-attachments/assets/2921b80a-684e-4053-b860-2fe9ac3cc52d" />
 
 - Mode: `Horizontal`
 - Lock panel: ✅ on
