@@ -1,0 +1,7 @@
+#XfcePanelWindow.panel-3 {
+  border-radius: 0px 0px 10px 10px; /* top-left, top-right, bottom-right, bottom-left */
+  margin-top: 0px; /* flush with screen top, no gap */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  border: 1px;
+  border-top: none; /* avoid a visible seam at the flush top edge */
+}
