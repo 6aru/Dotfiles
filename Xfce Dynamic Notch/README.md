@@ -2,7 +2,9 @@
 
 A floating pill/notch-style XFCE panel using pure GTK CSS. No scripts, no extra tools — just panel settings + one CSS file.
 
-![Items](screenshots/items.png)
+| ![](https://github.com/user-attachments/assets/ee8d0940-8586-49b0-9cb4-38d64afef244) | ![](https://github.com/user-attachments/assets/2f949b68-59b8-429c-8c33-a6adc3affc9c) |
+|:---:|:---:|
+
 
 ## 1. Install the CSS
 
